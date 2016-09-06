@@ -2,24 +2,24 @@
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <disabled>ignore</disabled>
-        <field>game</field>
-        <mandatory>true</mandatory>
+        <field>player</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-04-22 16:48:42</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>ecfff337c3321200f7d1ca3adfba8f9e</sys_id>
+        <sys_created_on>2016-09-06 06:41:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2eb61b3713ed66407148b9d12244b0f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>game</sys_name>
+        <sys_name>player</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
-        <sys_update_name>sys_ui_policy_action_ecfff337c3321200f7d1ca3adfba8f9e</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_2eb61b3713ed66407148b9d12244b0f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 16:48:42</sys_updated_on>
+        <sys_updated_on>2016-09-06 06:41:19</sys_updated_on>
         <table>sn_bball_game_player</table>
-        <ui_policy display_value="Reguire Game and Player for the m2m table">d2ee7337c3321200f7d1ca3adfba8fdb</ui_policy>
+        <ui_policy display_value="Require Game and Player for the m2m table">7826573713ed66407148b9d12244b0b8</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
